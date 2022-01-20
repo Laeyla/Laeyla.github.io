@@ -1,0 +1,45 @@
+#header {
+	background: #CEE681;
+	color: #FFFFFF;
+	padding: 1px;
+	width: 1350px;
+	height: 80px;
+	font-family:Comic Sans MS;
+	float: left;
+	font-size:14px;
+}
+.terus
+{
+	float: right;
+	color: #FFFFFF;
+	font-size:23px;
+}
+
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+	color: #FFFFFF;
+}
+
+.kotak{
+	background: #F2F5A7;
+	padding: 20px;
+	width: 300px;
+	margin: 20px;
+	height: 320px;
+}
+
+.kotak1{
+	border-radius: 10px 10px 10px 10px;
+}
+
+.footer{
+	background: #CEE681;
+	color: #FFFFFF;
+	padding: 1px;
+	width: 1350px;
+	height: 30npx;
+	font-family:Comic Sans MS;
+	text-align:center;
+	top: 974px;
+}
