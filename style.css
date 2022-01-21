@@ -15,22 +15,46 @@
 	font-size:23px;
 }
 
+.isi{
+	font-family:Comic Sans MS;
+}
+
 .ketengah{
 	margin: 10px auto;
 	width: 1150px;
 	color: #FFFFFF;
+	font-family:Comic Sans MS;
+	font-size:35px;
+	
 }
 
 .kotak{
 	background: #F2F5A7;
 	padding: 20px;
-	width: 300px;
+	width: 302px;
 	margin: 20px;
-	height: 320px;
+	height: 280px;
 }
 
 .kotak1{
 	border-radius: 10px 10px 10px 10px;
+}
+
+.nyala {
+	color: white;
+	background: #CEE681;
+	padding: 24px;
+}
+.nyala1 {
+	color: white;
+	background: #CEE681;
+	padding: 18px;
+}
+
+.nyala2 {
+	color: white;
+	background: #CEE681;
+	padding: 15px;
 }
 
 .footer{
