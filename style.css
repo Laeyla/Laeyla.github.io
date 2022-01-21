@@ -4,10 +4,11 @@
 	padding: 1px;
 	width: 1350px;
 	height: 80px;
-	font-family:Comic Sans MS;
+	font-family: Comic Sans MS;
 	float: left;
 	font-size:14px;
 }
+
 .terus
 {
 	float: right;
@@ -15,8 +16,20 @@
 	font-size:23px;
 }
 
+.onklik {
+	float: right;
+}
+
+.klik {
+	background: #F2F5A7;
+	padding: 18px;
+	color: Black;
+	font-family: Comic Sans MS;
+	font-size:20px;
+}
+
 .isi{
-	font-family:Comic Sans MS;
+	font-family: Comic Sans MS;
 }
 
 .ketengah{
@@ -45,6 +58,7 @@
 	background: #CEE681;
 	padding: 24px;
 }
+
 .nyala1 {
 	color: white;
 	background: #CEE681;

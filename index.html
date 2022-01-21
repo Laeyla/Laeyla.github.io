@@ -23,8 +23,6 @@
 						<a href="index.html">Home</a> |
 						<a href="about.html">About</a> |
 						<a href="contact.html">Contact </a> |
-						<a href="contact.html">Sign in </a> |
-						<a href="login.html">Log in </a>
 					</nav>
 				</div>
 		</h1>
@@ -34,11 +32,16 @@
 	<article 
 		style="background-color: #F5A476;">
 		<hr>
-		<br/>
-		<br/>
-		<a href="login.html">
-		<b class="nyala"> Log in </b>
-		</a>
+			<br/>
+			<div class="onklik" >
+				<a href="login.html">
+					<b class="klik"> Log in </b>
+				</a>
+				<a> Or </a>
+				<a href="signin.html">
+					<b class="klik"> Sign in </b>
+				</a>
+			</div>
 			<div class="isi">
 				<br/>
 				<br/>
@@ -76,6 +79,34 @@
 				</div>
 		</hr>
 	</article>
+	
+	<script>
+		var nilai = prompt("Bisa berikan nilai untuk kami");
+		var grade = "";
+		
+		if(nilai >= 90) grade = "Terima kasih telah berkunjung"
+		else if(nilai >= 80) grade = "Terima kasih telah berkunjung"
+		else if(nilai >= 70) grade = "Terima kasih telah berkunjung"
+		else if(nilai >= 60) grade = "Terima kasih telah berkunjung, Mohon maaf atas ketidaknyamanan, kami akan selalu memperbaharui sistem"
+		else if(nilai >= 50) grade = "Terima kasih telah berkunjung, Mohon maaf atas ketidaknyamanan, kami akan selalu memperbaharui sistem"
+		else if(nilai >= 40) grade = "Terima kasih telah berkunjung, Mohon maaf atas ketidaknyamanan, kami akan selalu memperbaharui sistem"
+		else if(nilai >= 30) grade = "Terima kasih telah berkunjung, Mohon maaf atas ketidaknyamanan, kami akan selalu memperbaharui sistem"
+		else grade = "F";
+		
+		document.write(`<p>${grade}</p>`);
+		
+		var tgl = new Date();
+			document.getElementById("tanggal").innerHTML = "Waktu akses "+tgl;
+			
+			window.setTimeout("waktu()", 1000);
+			function waktu(){
+				var waktu = new Date();
+				setTimeout("waktu()", 1000);
+				document.getElementById("jam").innerHTML = waktu.getHours();
+				document.getElementById("menit").innerHTML = waktu.getMinutes();
+				document.getElementById("detik").innerHTML = waktu.getSeconds();
+			}
+	</script>
 	
 	<!-- FOOTER -->
 	<footer>
